@@ -16,7 +16,7 @@ const RecipeCard =(getData)=> {
                 <h2>Recipe</h2>
                 <p>{getData.data.strInstructions}</p>
                 <div>
-                <img src="https://www.themealdb.com/images/media/meals/va668f1683209318.jpg " alt="food img" /> 
+                <img src={getData.data.strMealThumb}  alt="food img" /> 
                 </div>
                 <a href={getData.data.strSource}>Watch video</a>
             </div>
