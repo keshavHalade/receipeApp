@@ -39,7 +39,7 @@ const FrontPage = () => {
                 
             </div>
             <div className="footer">
-                &copy; 2021 - All rights reserved by Team Keshav
+                &copy; 2023 - All rights reserved by Team Keshav
             </div>
         </>
     )
